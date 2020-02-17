@@ -1,0 +1,73 @@
+
+            /*  AlininBankamatigi=> herkes kendi adýnda ve sonunda bankamatik olacak þekilde 
+             *   250 tl parasý olacak isimlendirme yapsýn
+            Bir bankamatik düþünülerek tasarlanacak bir program  için 
+            Kartlý iþlem    1
+            Kartsýz iþlem   2
+            //********Kartlý iþlem bölümü
+            Þifre istenecek=> Þifre:ab18
+            ==> þifreniin yanlýþ olmasý halinde 3 haktan sonra sistemden atýlacak,deðilse Ana Menü 
+            //*******************Ana Menü 
+            Para Çekmek için    1
+            Para yatýrmak için  2
+            Para Transferleri   3
+            Eðitim Ödemeleri    4
+            Ödemeler            5
+            Bilgi Güncelleme    6
+            //*********************Seçim 1************
+            Bakiye yeterli ise para çekilecek,deðilse yetersiz bakiye
+            Ana meüye dönmek için   9
+            Çýkmak için             0
+            //******************Seçim 2***********************
+            Kredi Kartýna   1
+            Kendi Hesabýnýza yatýrmak için  2
+            Ana Menü        9
+            Çýkmak için     0
+            //------------------------------------
+            //----1
+            Kredi kardý için en az 12 haneli kart numarasýný girsin
+            bakiye yeterli ise hesaptan kredi kartýna para yatýrýlaca
+            Ana Menü        9
+            Çýkmak için     0
+            //--------------------------
+            //---2
+            hesaba yatýrýlacak para deðeri istenir veiþlem gerçekleþtirilir
+            Ana Menü        9
+            Çýkmak için     0
+            //*****************************Seçim 3
+            Baþka Hesaba EFT    1
+            Baþka Hesaba Havale 2
+            //---------------------------------
+            //--1
+            EFT numarasý istenecek ve baþýnda tr olmalý ve sonrasýnda 12 haneli sayý iþlemleri doðru ise
+            yatýlacak para istenir ,hesap uygun ise iþlem gerçekleþir deðilse
+            Ana Menü        9
+            Çýkmak için     0
+            //-----------------------------
+            //---2
+            hesab için 11 haneli hesap numarasý iþlemler doðru ise
+            gönderilecek para miktarý, hesap uygun ise transfer olacak ,deðilse
+            Ana Menü        9
+            Çýkmak için     0
+            //****************Seçim 4
+            Eðitim Ödemeleri sayfasý arýzalý
+            Ana Menü        9
+            Çýkmak için     0
+            //****************************Seçim 5
+            Elektrik Faturasý       1
+            Telefon Faturasý        2
+            Ýnternet faturasý       3
+            Su Faturasý             4
+            OGS Ödemeleri           5
+            //-----------------------------------------
+            //---1 => bütün faturala için aþaðýdaki þart yeterli
+            fatura tutarý istenir, hesap uygun ise yatýrýlýr deðilse
+            Ana Menü        9
+            Çýkmak için     0
+            //-----------------------------------
+            //***************Seçim 6
+            Þifre deðiþtirmek için 1
+            Þifre deðiþtirme iþlemi gerçekleþtirilir
+            Ana Menü        9
+            Çýkmak için     0
+
